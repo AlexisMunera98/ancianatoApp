@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Perfil"
+            android:icon="@drawable/ic_cuidador"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/nav_Pacientes"
+            android:icon="@drawable/ic_paciente"
+            android:title="Pacientes" />
+        <item
+            android:id="@+id/nav_Recordatorios"
+            android:icon="@drawable/ic_recordatorio"
+            android:title="Recordatorios" />
+        <item
+            android:id="@+id/nav_Enfermedades"
+            android:icon="@drawable/ic_enfermedad"
+            android:title="Enfermedades" />
+        <item
+            android:id="@+id/nav_Informes"
+            android:icon="@drawable/ic_informacion"
+            android:title="Informes" />
+
+    </group>
+
+
+
+</menu>
